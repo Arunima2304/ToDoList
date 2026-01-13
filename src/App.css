@@ -1,0 +1,151 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* A deep, rich moving gradient background */
+  background: linear-gradient(135deg, #1f1c2c 0%, #928DAB 100%); 
+  /* Alternatively, try this Purple/Blue one if you prefer color: */
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+/* --- THE GLASS CARD (Wrapper) --- */
+.TodoWrapper {
+  /* The Glassmorphism Magic */
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(20px); /* This blurs what's behind the card */
+  -webkit-backdrop-filter: blur(20px); /* For Safari */
+  border: 1px solid rgba(197, 28, 28, 0.645); /* Subtle white border */
+  
+  margin-top: 5rem !important;
+  margin-bottom: 2rem;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3); /* Deep shadow for depth */
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* --- THE INPUT FORM --- */
+.TodoForm {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.todo-input {
+  flex-grow: 1;
+  outline: none;
+  background: rgba(0, 0, 0, 0.2); /* Dark semi-transparent */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.8rem 1.2rem;
+  border-radius: 50px; /* Pill shape */
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.todo-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.todo-input:focus {
+  background: rgba(0, 0, 0, 0.4);
+  border-color: #8f94fb;
+  box-shadow: 0 0 10px rgba(143, 148, 251, 0.3); /* Glow effect */
+}
+
+.todo-btn {
+  background: linear-gradient(90deg, #8E2DE2, #4A00E0); /* Vibrant Gradient */
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 50px; /* Pill shape */
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.todo-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(138, 43, 226, 0.4); /* Glow on hover */
+}
+
+/* --- THE TASK ITEMS --- */
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9); /* High contrast white bar */
+  color: #333;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+  border-left: 6px solid #4A00E0; /* Purple accent strip */
+}
+
+.Todo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.Todo p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Completed State */
+.completed {
+  color: #888;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+/* Buttons inside the task (Delete) */
+.Todo button {
+  background: #ff5e57;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  margin-left: 10px;
+}
+
+.Todo button:hover {
+  background: #ff3b30;
+  box-shadow: 0 2px 8px rgba(255, 59, 48, 0.4);
+}
