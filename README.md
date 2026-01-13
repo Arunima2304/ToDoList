@@ -22,23 +22,10 @@ A modern, beautiful task manager built with React. This app features a "Glassmor
 
 ## 📸 Screenshots
 
-*(You can drag and drop your screenshot images here later to show off the design!)*
+![Home Page](<img width="1920" height="1080" alt="Screenshot 2026-01-13 212723" src="https://github.com/user-attachments/assets/8ac3a726-26aa-4c81-b0bb-9ba215d0d008" />)
+![List Page](<img width="1920" height="1080" alt="Screenshot 2026-01-13 212835" src="https://github.com/user-attachments/assets/8ace2d15-6a04-41a3-b2c3-4260755ad38c" />)
+![Add Task](<img width="1920" height="1080" alt="Screenshot 2026-01-13 212903" src="https://github.com/user-attachments/assets/a69ea282-6f80-4fe9-82a9-4498caf17f7a" />)
+
 
 ---
 
-## 🚀 How to Run Locally
-
-If you want to clone and run this project on your computer:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/Arunima2304/ToDoList.git](https://github.com/Arunima2304/ToDoList.git)
-    ```
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-3.  **Start the app:**
-    ```bash
-    npm start
-    ```
