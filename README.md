@@ -1,4 +1,4 @@
-# 📝 To-Do App
+# 📝To-Do List
 
 A modern, beautiful task manager built with React. This app features a "Glassmorphism" UI design (frosted glass effect), real-time search filtering, and persistent data storage.
 
@@ -10,15 +10,17 @@ A modern, beautiful task manager built with React. This app features a "Glassmor
 * **💾 Local Storage:** Tasks are saved automatically to your browser—refresh the page and they stay!
 * **🔍 Live Search:** Instantly filter your tasks by typing in the search bar.
 * **⚡ CRUD Operations:** Add, Read, and Delete tasks instantly.
-* **📱 Fully Responsive:** Works on desktop and mobile.
+* **📱 Fully Responsive:** Works perfectly on desktop and mobile.
 
 ## 🛠️ Technologies Used
 
 * **React.js** (Hooks: `useState`, `useEffect`)
-* **React Router** (Navigation between Home and App)
+* **React Router** (Single Page Navigation)
 * **CSS3** (Custom Glassmorphism styling, Animations)
 * **Bootstrap 5** (Navbar and responsive layout)
 * **GitHub Pages** (Deployment)
+
+---
 
 ## 📸 Screenshots
 ![Home Page](https://github.com/user-attachments/assets/229d4271-d841-4d6f-8a65-ff860fc4037a)
