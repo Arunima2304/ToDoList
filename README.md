@@ -21,11 +21,9 @@ A modern, beautiful task manager built with React. This app features a "Glassmor
 * **GitHub Pages** (Deployment)
 
 ## 📸 Screenshots
-
-![Home Page](<img width="1920" height="1080" alt="Screenshot 2026-01-13 212723" src="https://github.com/user-attachments/assets/8ac3a726-26aa-4c81-b0bb-9ba215d0d008" />)
-![List Page](<img width="1920" height="1080" alt="Screenshot 2026-01-13 212835" src="https://github.com/user-attachments/assets/8ace2d15-6a04-41a3-b2c3-4260755ad38c" />)
-![Add Task]([https://1drv.ms/i/c/11134c45fe34129a/IQCaDQrKGkA8RoGye_Plh1kyAej5vN_lDZuNGSdDkx_5YEM?e=iWkC89](https://1drv.ms/i/c/11134c45fe34129a/IQCaDQrKGkA8RoGye_Plh1kyAb1v3cxLOWGH079aakE4o3Q?e=krd85M))
-
+![Home Page](https://github.com/user-attachments/assets/229d4271-d841-4d6f-8a65-ff860fc4037a)
+![Add Task](https://github.com/user-attachments/assets/ae2b9c76-fe39-4aa2-b661-b5bb429dba47)
+![List Page](https://github.com/user-attachments/assets/89709c9f-b04c-4ea1-8963-c2375cceb131)
 
 ---
 
