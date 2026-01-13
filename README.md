@@ -2,8 +2,6 @@
 
 A modern, beautiful task manager built with React. This app features a "Glassmorphism" UI design (frosted glass effect), real-time search filtering, and persistent data storage.
 
-### 🔗 [Click here to view the Live Demo](https://Arunima2304.github.io/ToDoList)
-
 ---
 
 ## ✨ Features
